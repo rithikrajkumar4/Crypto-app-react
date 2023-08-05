@@ -1,7 +1,8 @@
 # Project documentation
 This is Crypto app which fetch the geckocoin apis and display there data on the app. Its use various packages like charkaUI,axios,chartJS,react-icons and react-router-dom.
 ### The website is hosted on vercel click to preview [https://crypto-app-react-six.vercel.app/] .
-In the project there are mainly 4 pages that are been rendered :
+#### The App is full responsive and work well in all the screen widths.
+### In the project there are mainly 4 pages that are been rendered :
 ## 1.HOME-PAGE
 ![Screenshot_20230805_162057](https://github.com/rithikrajkumar4/Crypto-app-react/assets/60754009/6175f4e2-eb4b-4aa8-97ab-2264622086ab)
   The Homepage is simple it has an animation on the bitcoin which is moving up and down in the fixed interval.
