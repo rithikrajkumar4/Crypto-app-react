@@ -1,6 +1,24 @@
-# Getting Started with Create React App
+# Project documentation
+This is Crypto app which fetch the geckocoin apis and display there data on the app. Its use various packages like charkaUI,axios,chartJS,react-icons and react-router-dom.
+### The website is hosted on vercel click to preview [https://crypto-app-react-six.vercel.app/] .
+In the project there are mainly 4 pages that are been rendered :
+## 1.HOME-PAGE
+![Screenshot_20230805_162057](https://github.com/rithikrajkumar4/Crypto-app-react/assets/60754009/6175f4e2-eb4b-4aa8-97ab-2264622086ab)
+  The Homepage is simple it has an animation on the bitcoin which is moving up and down in the fixed interval.
+## 2. EXCHANGE-PAGE
+![Screenshot_20230805_162355](https://github.com/rithikrajkumar4/Crypto-app-react/assets/60754009/02149190-97ec-4412-9f7b-1fb380c7efbf)
+  The Exchange page is displaying the top exchange app which are letting the option of trading the coins in the market.If you click a particular exchange app the full website with documentation can be seen.
+## 3. COIN-PAGE
+ #### The Coin page is displaying the all presented coin in the market and displaying there price with selected currency.There is an option to select a currency of your choice ["INR","USD","EUR"].This is implemented using a radio button and after the selection the particular component re-render itself. 
+![Screenshot_20230805_162912](https://github.com/rithikrajkumar4/Crypto-app-react/assets/60754009/7319fac3-ba88-4d57-bed7-3b471c86c56c)
+  #### There are more than 13,200 coins in the market.So there is a Pagination added in the website by clicking the page no, the website re-render to the particular page.The page documentation is presented in the gecko coin app.
+![Screenshot_20230805_163246](https://github.com/rithikrajkumar4/Crypto-app-react/assets/60754009/7aa37029-a987-4287-ba03-d4531614b471)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 4. COIN-DETAIL-PAGE
+#### When a particular coin is clicked it show the chart and some important data about the Coin. 
+![Screenshot_20230805_164041](https://github.com/rithikrajkumar4/Crypto-app-react/assets/60754009/087b3aa9-051a-467c-a301-b3840cdac65c)
+
+![Screenshot_20230805_164128](https://github.com/rithikrajkumar4/Crypto-app-react/assets/60754009/27f098b5-2dca-42ac-83e2-64d3e872183c)
 
 ## Available Scripts
 
