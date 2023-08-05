@@ -1,6 +1,5 @@
 import { Box, Image, Text } from "@chakra-ui/react";
 import React from "react";
-import btcSrc from "../assets/btc.png";
 import { motion } from "framer-motion";
 
 const Home = () => {
@@ -23,7 +22,9 @@ const Home = () => {
           w={"full"}
           h={"full"}
           objectFit={"contain"}
-          src={btcSrc}
+          src={
+            "https://www.freepnglogos.com/uploads/bitcoin-png/bitcoinpaygate-bitcoin-payment-gateway-payment-processor-7.png"
+          }
           filter={"grayscale(1)"}
         />
       </motion.div>
